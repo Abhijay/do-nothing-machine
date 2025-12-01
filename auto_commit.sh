@@ -25,7 +25,7 @@ for ((i=1; i<=COMMITS; i++)); do
     git commit -m "Automated commit $i at $TIMESTAMP"
 
     # Random sleep (5–60 seconds)
-    SLEEP=$(( RANDOM % 56 + 5 ))
+    SLEEP=$(( RANDOM % 3 + 1 ))
     sleep "$SLEEP"
 done
 

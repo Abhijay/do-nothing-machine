@@ -10,8 +10,8 @@ mkdir -p .activity
 
 LOG_FILE=".activity/activity.log"
 
-# Number of commits for the day (random 10–100)
-COMMITS=$(( RANDOM % 91 + 10 ))
+# Number of commits for the day (random 10–30)
+COMMITS=$(( RANDOM % 21 + 10 ))
 
 echo "Generating $COMMITS commits in $REPO_PATH..."
 
